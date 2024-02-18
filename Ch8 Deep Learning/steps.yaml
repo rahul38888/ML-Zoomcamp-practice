@@ -1,0 +1,9 @@
+Setup env and install requirements:
+  - Note:
+    - These steps are for Linus based system
+    - For Windows tenforflow 2.10 was the last version to support GPU. Post that you need to install tensorflow in WSL  
+    - In case GPU are not abailable, CPU will be used. Although it will be 3 times slower
+  - conda create -n wsl_tf_p31012 python=3.10.12
+  - Common libs: conda install numpy pandas seaborn xgboost matplotlib tqdm pillow
+  - Tensorflow: python -m pip install tensorflow[and-cuda]
+  - Check GPU visibility: python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"

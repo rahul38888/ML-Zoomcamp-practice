@@ -1,0 +1,15 @@
+SNo,Column name,Details
+1,Status,credit status
+2,Seniority,job seniority (years)
+3,Home,type of home ownership
+4,Time,time of requested loan
+5,Age,client's age
+6,Marital,marital status
+7,Records,existance of records
+8,Job,type of job
+9,Expenses,amount of expenses
+10,Income,amount of income
+11,Assets,amount of assets
+12,Debt,amount of debt
+13,Amount,amount requested of loan
+14,Price,price of good
