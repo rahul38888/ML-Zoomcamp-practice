@@ -166,3 +166,5 @@ cython_debug/
 *.tflite
 
 idea
+
+clothing-dataset-small
